@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import Login from './pages/login/login'; 
+
 function App() {
-  <h1>Initial commit</h1>
+    return (
+        <Login />
+    );
 }
 
 export default App;
